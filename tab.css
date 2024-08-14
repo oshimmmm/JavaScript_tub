@@ -1,0 +1,32 @@
+.tab {
+    /* 横幅 */
+    width: 500px;
+}
+.tab-nav {
+    /* 横並びにする */
+    display: flex;
+}
+.tab-nav-item {
+    margin-right: 2px;
+    background: #ccc;
+    color: #000;
+    /* 横幅の空間 */
+    padding: 10px 20px;
+    /* テキストの下線を消す */
+    text-decoration: none;
+    /* 外側の角を丸める */
+    border-radius: 5px 5px 0 0;
+}
+.tab-nav-item.is-active {
+    background: #000;
+    color: #fff;
+
+}
+.tab-contents {
+    border: 1px solid #ccc;
+    padding: 20px;
+
+}
+.tab-contents-item {
+    display: none;
+}
